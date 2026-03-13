@@ -7,6 +7,7 @@
 #include "fusion.h"
 #include "wireless.h"
 #include "crc16.h"
+#include <wire.h>
 
 static SensorFrame_t g_frame;
 static AdaptiveWeights_t g_weights;
