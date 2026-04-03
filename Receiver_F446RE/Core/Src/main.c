@@ -5,7 +5,7 @@
 #include "wireless.h"
 #include "control.h"
 #include "crc16.h"
-
+#include <stdlib.h>
 static ControlPacket_t g_rxPacket;
 static ControlPacket_t g_safePacket;
 
